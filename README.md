@@ -39,15 +39,29 @@ Foi utilizado a Library pandas para trabalhar com  a base de Dados e plotly para
 
 Através da análise dos Dados o índice de cancelamento de 56% caiu para 19% e foi possível indentificar os seguintes motivos de cancelamento:
 
+
+
+**<h3>Antes com 56% de cancelamneto:</h3>**
+> ![Image](https://github.com/user-attachments/assets/826a1970-f115-4c15-b3f0-6c6d0cb3a504)
+> ![Image](https://github.com/user-attachments/assets/7cd6cd13-6f40-41f5-a05d-308b014f9d8e)
+
+**<h3>Depois com 19% de cancelamento:</h3>**
+> ![Image](https://github.com/user-attachments/assets/8e9292f5-de95-482c-a127-6a0ed566793f)
+
 1º- **Usuários do contrato mensal sempre cancelam.**
+> ![Image](https://github.com/user-attachments/assets/90eda357-9ef5-45f9-9c43-02beded60244)
 
 **possível solução:** evitar o contrato mensal e incentivar (aplicar descontos) nos contratos anuais e trimestrais.
 
 2º- **Todos os usuários que ligaram mais de 4 vezes para o call center, cancelaram o serviço.**
+![Image](https://github.com/user-attachments/assets/6caf171a-4a99-4e37-8ee8-7827dc887153)
 
 **possível solução:** criar um processo no qual quando, o usuário atingir 3 ligações para o call center, gere um alerta para que seja tomada alguma atitude para solucionar o problema do cliente. 
 
 3º - **Usuários que atrazaram o pagamento mais de 20 dias, cancelaram o serviço.**
+![Image](https://github.com/user-attachments/assets/dfc0dc47-4d2a-47f7-b66d-00c6e439ab41)
+
+
 
 **possível solução:** criar um aviso para quando o atraso do pagamento atingir 15 dias, entrar em contato com o cliente.
 
