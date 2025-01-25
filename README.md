@@ -11,10 +11,10 @@ Cada aula é dedicada a um tema específico de Python, abordando problemas reais
 
 <h2 id="aula01">Aula 01 - Automação com Python - 13/01</h2>
 <h3> Desafio proposto:</h3> 
-**Cadastrar uma lista de produtos de uma base de Dados de forma automática no site de uma empresa.**
+Cadastrar uma lista de produtos de uma base de Dados de forma automática no site de uma empresa.
 
 O programa usa a Library pyautogui para automação em Python e o pandas junto com o pacote openpyxl para ler a base de Dados.
-O programa simula uma rotina de trabalho cadastrando uma base de Dados em um site, controlando mouse e teclado do computador. 
+O programa simula uma rotina de trabalho cadastrando uma base de Dados em um site, controlando mouse e teclado do computador.
 - Abre o navegador e entra no site de login da empresa 
 - Efetua o Login
 - Importa a Base de Dados dos produtos
@@ -22,7 +22,7 @@ O programa simula uma rotina de trabalho cadastrando uma base de Dados em um sit
   
 <h2 id="aula02">Aula 02 - Análise de Dados com Python - 14/01</h2>
 <h3>Desafio proposto:</h3>
-**Case - Cancelamento de Clientes**
+Case - Cancelamento de Clientes
 
 **Você foi contratado por uma empresa com mais de 800 mil clientes para um projeto de Dados. Recentemente a empresa percebeu que da sua base total de clientes, a maioria são clientes inativos, ou seja, que já cancelaram o serviço.**
 
@@ -67,7 +67,7 @@ Através da análise dos Dados o índice de cancelamento de 56% caiu para 19% e 
 
 <h2 id="aula03">Aula 03 - Inteligência Artificial e Previsões - 15/01</h2>
 <h3>Desafio proposto:</h3>
-**Case: Score de Crédito dos Clientes**
+Case: Score de Crédito dos Clientes
 
 **Você foi contratado por um banco para conseguir definir o score de crédito dos clientes. Você precisa analisar todos os clientes do banco e, com base nessa análise, criar um modelo que consiga ler as informações do cliente e dizer automaticamente o score de crédito dele: Ruim, Ok, Bom.**
 
@@ -82,6 +82,6 @@ Foi utilizado a Library pandas para trabalhar com a Base de Dados e o scikit-lea
   
 <h2 id="aula04">Aula 04 - Criação de Sites e Sistemas com Python - 16/01</h2>
 <h3> Desafio proposto:</h3>
-**Criar um site bate-papo chamado Hashzap**
+Criar um site bate-papo chamado Hashzap
 
 Foi utilizado o Framework Flet para desenvolvimento de toda UI da aplicação.
