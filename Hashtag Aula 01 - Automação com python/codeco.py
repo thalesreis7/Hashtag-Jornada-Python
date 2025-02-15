@@ -12,12 +12,13 @@ pyautogui.PAUSE = 0.5
     #-Sistema: https://dlp.hashtagtreinamentos.com/python/intensivao/login
     #Abrir o opera e entrar no link: https://dlp.hashtagtreinamentos.com/python/intensivao/login
 pyautogui.press('win')
-pyautogui.write('opera')
+pyautogui.write('chrome')
 pyautogui.press('enter')
+time.sleep(3)
 pyautogui.write('https://dlp.hashtagtreinamentos.com/python/intensivao/login')
 pyautogui.press('enter')
 #pedir para o programa esperar 3 segundos, por conta da internet para carregar o site
-time.sleep(6) #para esperar os 3 segundo só ai ir para o Login 
+time.sleep(3) #para esperar os 3 segundo só ai ir para o Login 
 
 #Passo 2: Fazer Login
 pyautogui.click(x=445, y=364)
@@ -28,7 +29,7 @@ pyautogui.write('1234567')
 
 pyautogui.press('tab')#passa para o botão login
 pyautogui.press('enter')
-
+ 
 
 #Passo 3: Importar a base de dados  dos produtos
 tabela = pandas.read_csv('produtos.csv')#para ler a base de dados dos produtos, com a variável tabela
